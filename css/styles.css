@@ -409,8 +409,8 @@ h1, h2, h3, h4 {
 
 /* ===== Footer ===== */
 .footer {
-  background-color: var(--color-text);
-  color: var(--color-bg);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   padding: 56px 0 0;
 }
 
@@ -422,18 +422,17 @@ h1, h2, h3, h4 {
 }
 
 .logo--footer {
-  color: var(--color-bg);
+  color: var(--color-text);
   margin-bottom: 8px;
 }
 
 .footer__col h4 {
   margin-bottom: 12px;
-  color: var(--color-secondary);
+  color: var(--color-cta);
 }
 
 .footer__col p {
   margin-bottom: 6px;
-  opacity: 0.85;
 }
 
 .footer__socials {
@@ -442,20 +441,19 @@ h1, h2, h3, h4 {
 }
 
 .footer__socials a {
-  opacity: 0.85;
+  font-weight: 600;
 }
 
 .footer__socials a:hover {
-  opacity: 1;
-  color: var(--color-secondary);
+  color: var(--color-cta);
 }
 
 .footer__bottom {
   text-align: center;
   padding: 20px 0;
-  border-top: 1px solid rgba(245, 239, 230, 0.15);
+  border-top: 1px solid rgba(61, 43, 31, 0.15);
   font-size: 0.85rem;
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 /* ===== WhatsApp float ===== */
